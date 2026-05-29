@@ -29,7 +29,7 @@ export function FormDemo() {
     defaultValues: {
       projectName: "Next.js Dashboard",
       ownerEmail: "admin@example.com",
-      databaseUrl: "******localhost:5432/dashboard",
+      databaseUrl: "postgresql://user@localhost:5432/dashboard",
     },
   });
 

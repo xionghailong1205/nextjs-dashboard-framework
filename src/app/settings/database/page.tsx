@@ -21,7 +21,7 @@ export default function DatabaseSettingsPage() {
           <div className="rounded-lg border border-dashed bg-slate-50 p-4 text-sm text-slate-600">
             {config.configured
               ? "已检测到 DATABASE_URL，后端可直接使用 pg 连接数据库。"
-              : "请在 .env.local 中设置 DATABASE_URL=******localhost:5432/dashboard"}
+              : "请在 .env.local 中设置 DATABASE_URL=postgresql://user@localhost:5432/dashboard"}
           </div>
           <pre className="overflow-x-auto rounded-lg bg-slate-950 p-4 text-xs leading-6 text-slate-50">
 {`import { query } from "@/lib/db";

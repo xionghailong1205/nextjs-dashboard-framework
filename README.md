@@ -28,7 +28,7 @@ npm run dev
 2. 配置连接字符串：
 
 ```bash
-DATABASE_URL=******localhost:5432/dashboard
+DATABASE_URL=postgresql://user@localhost:5432/dashboard
 ```
 
 3. 在服务端直接写 SQL：
